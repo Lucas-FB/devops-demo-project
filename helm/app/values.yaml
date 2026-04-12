@@ -5,9 +5,9 @@
 replicaCount: 2
 
 image:
-  repository: lucasfleb/demo-java-app  # Assure-toi qu'il y a bien le 'b'
+  repository: lucasfleb/demo-java-app
   pullPolicy: IfNotPresent
-  tag: "V1.0"                         # Avec le V majuscule comme sur ton screen
+  tag: "V1.0"
 
 appName: demo-java-app
 
