@@ -5,11 +5,9 @@
 replicaCount: 2
 
 image:
-  githubID: Lucas-FB
-  repository: demo-java-app
+  repository: lucasfleb/demo-java-app  # Assure-toi qu'il y a bien le 'b'
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: V1.0
+  tag: "V1.0"                         # Avec le V majuscule comme sur ton screen
 
 appName: demo-java-app
 
